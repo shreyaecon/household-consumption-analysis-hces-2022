@@ -1,4 +1,7 @@
 # household-consumption-analysis-hces-2022
+Analysis of Household Consumption Patterns in India (HCES 2022-23)
+This project analyzes household consumption expenditure across India using data from the NSS Round 79 Household Consumption Expenditure Survey (2022-23).
+
 ## Data Source
 This analysis uses publicly available data from the National Sample Survey Office (NSSO), Government of India:
 - NSS Round 79: Household Consumption Expenditure Survey (2022-23)
@@ -9,16 +12,13 @@ This analysis uses publicly available data from the National Sample Survey Offic
 2. Set your working directory to the folder containing the data
 3. Run `hces_consumption_analysis.R`
 
-Analysis of Household Consumption Patterns in India (HCES 2022-23)
-This project analyzes household consumption expenditure across India using data from the NSS Round 79 Household Consumption Expenditure Survey (2022-23).
-
-Key analyses:
+## Key analyses:
 1. Calculated monthly per capita consumption expenditure (MPCE) and total household expenditure across rural and urban sectors
 2. Examined consumption patterns across income quintiles to understand spending distribution
 3. Analyzed expenditure differences by social group (SC/ST/OBC/General) and religion
 4. Created geographic visualization showing state-wise consumption patterns across India
 
-Tools used: R (tidyverse, ggplot2, sf for mapping)
+##Tools used: R (tidyverse, ggplot2, sf for mapping)
 
 Main findings:
 1. Urban households show significantly higher consumption expenditure than rural households
